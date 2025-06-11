@@ -1,0 +1,21 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform crash logs
+crash.log
+
+# Local .terraform directories (plugin binaries etc.)
+.terraform/
+
+# Variable definitions (may contain secrets)
+terraform.tfvars
+*.tfvars
+
+# Editor and OS files (optional but recommended)
+*.log
+*.swp
+*.tmp
+.DS_Store
+.idea/
+.vscode/
